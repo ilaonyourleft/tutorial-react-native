@@ -1,2 +1,33 @@
-awesome-project/node_modules
-awesome-project/.expo
+# dependencies
+awesome-project/node_modules/
+
+# Expo
+awesome-project/.expo/
+awesome-project/dist/
+awesome-project/web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+awesome-project/.metro-health-check*
+
+# debug
+awesome-project/npm-debug.*
+awesome-project/yarn-debug.*
+awesome-project/yarn-error.*
+
+# macOS
+awesome-project/.DS_Store
+*.pem
+
+# local env files
+awesome-project/.env*.local
+
+# typescript
+*.tsbuildinfo
